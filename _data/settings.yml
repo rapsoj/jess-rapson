@@ -1,11 +1,37 @@
 #-------------------------------
 # General Site Settings
 
+# menu:
+# - {name: 'Projects', url: ''}
+# - {name: 'Blog',     url: 'blog'}
+# - {name: 'About',    url: 'about'}
+# - {name: 'Contact',  url: 'contact'}
+
 menu:
-- {name: 'Projects', url: ''}
-- {name: 'Blog',     url: 'blog'}
-- {name: 'About',    url: 'about'}
-- {name: 'Contact',  url: 'contact'}
+- name: 'Projects'
+  url: ''
+  subitems:
+  - name: 'Project One'
+    url: 'proj-1'
+  - name: 'Project Two'
+    url: 'proj-2'
+  - name: 'Project Three'
+    url: 'proj-3'
+  - name: 'Project Four'
+    url: 'proj-4'
+  - name: 'Project Five'
+    url: 'proj-5'
+- name: 'Blog'
+  url: 'blog'
+  subitems:
+  - name: 'Subcategory One'
+    url: 'subcategory-1'
+  - name: 'Subcategory Two'
+    url: 'subcategory-2'
+- name: 'About'
+  url: 'about'
+- name: 'Contact'
+  url: 'contact'
 
 #-------------------------------
 # Projects Section
