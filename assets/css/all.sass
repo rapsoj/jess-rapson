@@ -4,6 +4,24 @@
 //------------------------------------------------
 // Set some colors as sass variables
 
+$font-paragraph: 'Open Sans', sans-serif;
+$font-heading: 'Lato', sans-serif;
+
+/ Paragraphs
+p {
+  font-family: $font-paragraph;
+  font-size: 16px; // You can adjust the font size
+  line-height: 1.5; // You can adjust the line height
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
+  font-weight: 700; // You can adjust the font weight
+  font-size: 24px; // You can adjust the font size
+  line-height: 1.2; // You can adjust the line height
+}
+
 $accent-color: #BD5248
 $accent: #c99065
 $accent-light: adjust-hue(saturate(lighten($accent, 11%), 12.6%), 14%)
